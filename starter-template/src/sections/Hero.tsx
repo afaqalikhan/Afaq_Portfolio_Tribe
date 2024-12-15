@@ -65,7 +65,7 @@ export const HeroSection = () => {
         </div>
         <div className='max-w-lg mx-auto'>
          <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Building Exceptional User Experiencies</h1>
-         <p className='mt-4 text-center text-white/60 md:text-lg'> I specialize in transforming designs into functional , high perfoming web applications. Let's discuss your next project.</p>
+         <p className='mt-4 text-center text-white/60 md:text-lg'> I specialize in transforming designs into functional , high perfoming web applications. Let&apos;s discuss your next project.</p>
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
           <a href="#explore my work" target='_self' className='z-10'>
@@ -76,7 +76,7 @@ export const HeroSection = () => {
           </a>
           <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 rounded-xl px-6 h-12 z-10' onClick={() => window.open("03174330020", "_blank")}>
              <span>✋</span>
-             <span className='font-semibold'> Let's Connect </span>
+             <span className='font-semibold'> Let&apos;s Connect </span>
           </button>
         </div>
       </div>
