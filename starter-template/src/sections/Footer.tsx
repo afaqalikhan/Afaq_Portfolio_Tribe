@@ -2,8 +2,8 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const footerLinks = [
    {
-     title : 'Vercel',
-     href : 'https://vercel.com/afaqalikhans-projects',
+     title : 'WhatsApp',
+     href : 'https://wa.me/923174330020?text=feel%20free%20for%20DM',
    },
    {
     title : 'Portfolio2',

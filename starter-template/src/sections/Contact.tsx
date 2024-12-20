@@ -4,6 +4,11 @@ import grainImage from "@/assets/images/grain.jpg";
 
 
 export const ContactSection = () => {
+
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/923174330020?text=feel%20free%20for%20DM", "_blank");
+  };
+  
   return (
   <div className="py-16 lg:py-24 pt-14 lg:pt-20">
     <div className="container">
@@ -18,8 +23,8 @@ export const ContactSection = () => {
             <p className="text-sm mt-2 md:text-base"> Ready to bring your next project to life? Let&apos;s connect and discuss how i can help you acheive your goals </p>
          </div>
          <div>
-            <button onClick={() => window.open("https://accounts.google.com/v3/signin/challenge/pwd?TL=AE--LlyYN1YR0ooNE6i29D8-JoJiusd96v-7TMtDgUwrF3NfZtjve0xoDgmb3-dw&cid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F2%2F&ddm=1&emr=1&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F2%2F&hl=en-GB&ifkv=AeZLP997GaaodqJCfljqsuFOZFGxsbv18OQSNHheL5ASOJ7b6hTqdrYBMk24MTTDxm28pSq9PwBz&osid=1&service=mail", "_blank")} className="bg-gray-900 text-white inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
-              <span className="font-semibold"> Contact Me </span>
+            <button onClick={handleWhatsAppClick} className="bg-gray-900 text-white inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
+              <span id = "header-contact" className="font-semibold"> Contact Me </span>
               <ArrowUpRightIcon className = "size-4" />
             </button>
          </div>
