@@ -23,8 +23,8 @@ export const ContactSection = () => {
             <p className="text-sm mt-2 md:text-base"> Ready to bring your next project to life? Let&apos;s connect and discuss how i can help you acheive your goals </p>
          </div>
          <div>
-            <button onClick={handleWhatsAppClick} className="bg-gray-900 text-white inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
-              <span id = "header-contact" className="font-semibold"> Contact Me </span>
+            <button onClick={handleWhatsAppClick} className="bg-gray-900 text-white inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:border-white hover:bg-white hover:text-gray-950">
+              <span id = "header-contact" className="font-semibold hover:font-bold"> Contact Me </span>
               <ArrowUpRightIcon className = "size-4" />
             </button>
          </div>

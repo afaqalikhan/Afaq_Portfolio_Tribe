@@ -69,15 +69,17 @@ export const HeroSection = () => {
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
           <a href="#explore my work" target='_self' className='z-10'>
-            <button className='inline-flex items-center gap-4 border border-white/15 rounded-xl px-6 h-12 '>
-              <span className='font-semibold'>Explore my work</span>
+            <button className='inline-flex items-center gap-4 border border-white/15 hover:border-orange-600 rounded-xl px-6 h-12 hover:bg-gray-950 '>
+              <span className='font-semibold hover:text-white '>Explore my work</span>
               <ArrowDown className = "size-4" />
             </button>
           </a>
-          <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 rounded-xl px-6 h-12 z-10' onClick={() => window.open("03174330020", "_blank")}>
-             <span>✋</span>
-             <span className='font-semibold'> Let&apos;s Connect </span>
-          </button>
+         
+            <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 rounded-xl px-6 h-12 z-10 hover:text-white hover:border-white hover:bg-transparent '>
+              <span>✋</span>
+              <span className='font-semibold'> Let&apos;s Connect </span>
+            </button>
+          
         </div>
       </div>
   </div>
